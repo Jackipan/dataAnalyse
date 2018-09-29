@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/dataAnalyse.css">
+    <script src="../js/echarts.js"></script>
+    <title>数据分析</title>
+</head>
+<body>
+    <p>本月截止<span id="localtime"></span>共排查车辆<span id="carnum"></span>车次。其中有酒后驾驶<span id="drunk"></span>宗，
+        醉酒驾驶<span id="drinkdrive"></span>宗。查处率为<span id="fenshu"></span>。 </p>
+    <!-- 饼状图div -->
+    <div id="PieData"></div>
+
+
+    <!-- 表格div -->
+    <div id="tableData">
+        检测数据汇总表格
+    </div>
+
+
+    <!-- 纵向比较(柱状图) -->
+    <div id="barData">
+        
+    </div>
+
+
+
+
+    <!-- 饼状图 -->
+    <script src="../js/PieData.js"></script>
+    <!-- 表格 -->
+    <script src="../js/tableData.js"></script>
+    <!-- 柱状图 -->
+    <script src="../js/barData.js"></script>
+
+    
+</body>
+</html>

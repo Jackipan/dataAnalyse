@@ -1,0 +1,37 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin: 0 auto;
+    padding: 0;
+}
+div{
+    margin-left: 50px;
+    border: 2px solid #457;
+    float: left;
+    /* overflow: auto; */
+}
+/* 饼状图 */
+div#PieData{
+    margin-left: 20px;
+    width: 45%;
+    height: 500px; 
+    border: 2px solid #457;
+    border-radius: 10px;
+}
+/* 表格 */
+div#tableData{
+    background-color: antiquewhite;
+    width: 45%;
+    height: 500px;
+    border: 2px solid #457;
+    border-radius: 10px;
+}
+/* 柱状图 */
+div#barData{
+    clear: both;
+    width: 48%;
+    height: 500px;
+    border: rgb(223, 13, 170);
+    margin-top: 50px;
+    margin-left: 10px;
+}
